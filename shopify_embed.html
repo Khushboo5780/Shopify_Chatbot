@@ -1,0 +1,34 @@
+<!-- Add this code just before the closing </body> tag in your theme.liquid file -->
+
+<!-- Chatbot Widget -->
+<script>
+  // Configure chatbot
+  window.CHATBOT_CONFIG = {
+    apiUrl: 'https://your-flask-server.com/api/chat',  // Replace with your server URL
+    shopName: '{{ shop.name }}',
+    shopCurrency: '{{ shop.currency }}',
+    customerEmail: '{{ customer.email }}',  // Will be blank for non-logged-in users
+    theme: {
+      primaryColor: '#5c6ac4',  // Customize to match your theme
+      secondaryColor: '#202e78',
+      textColor: '#333333'
+    }
+  };
+</script>
+
+<!-- Chatbot Assets -->
+<script src="https://your-flask-server.com/static/chatbot.js"></script>
+<link rel="stylesheet" href="https://your-flask-server.com/static/styles.css">
+
+<!-- Initialize with shop-specific settings -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Apply shop-specific theme colors
+    const root = document.documentElement;
+    const config = window.CHATBOT_CONFIG;
+    
+    root.style.setProperty('--primary-color', config.theme.primaryColor);
+    root.style.setProperty('--secondary-color', config.theme.secondaryColor);
+    root.style.setProperty('--text-color', config.theme.textColor);
+  });
+</script> 

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Assistant</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div id="chat-widget" class="chat-widget">
+        <button id="chat-toggle" class="chat-toggle">
+            <span>Store Assistant</span>
+        </button>
+        
+        <div id="chat-container" class="chat-container hidden">
+            <div class="chat-header">
+                <span>Store Assistant</span>
+                <button id="chat-close" class="chat-close">&times;</button>
+            </div>
+            
+            <div id="chat-messages" class="chat-messages"></div>
+            
+            <div class="chat-input-container">
+                <textarea 
+                    id="chat-input" 
+                    placeholder="Type your message..." 
+                    rows="1"
+                ></textarea>
+                <button id="chat-send" class="chat-send">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="/static/chatbot.js"></script>
+</body>
+</html> 

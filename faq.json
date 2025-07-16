@@ -1,0 +1,44 @@
+{
+  "faqs": [
+    {
+      "question": "What is your return policy?",
+      "answer": "We offer a 30-day return policy for all unused items in their original packaging. Simply initiate a return through your order history, and we'll provide a prepaid shipping label. Once we receive the item, your refund will be processed within 3-5 business days."
+    },
+    {
+      "question": "How can I track my order?",
+      "answer": "You can track your order by logging into your account and viewing your order history. Once your order ships, you'll receive a tracking number via email. Click the tracking number to see real-time updates on your package's location."
+    },
+    {
+      "question": "Do you ship internationally?",
+      "answer": "Yes, we ship to most countries worldwide. International shipping rates and delivery times vary by location. You can see exact shipping costs during checkout after entering your delivery address."
+    },
+    {
+      "question": "How do I find my size?",
+      "answer": "We provide detailed size guides for all our products. You can find the size guide link on each product page. For the most accurate fit, measure yourself and compare your measurements to our size chart. If you're between sizes, we recommend ordering the larger size."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept all major credit cards (Visa, MasterCard, American Express), PayPal, Shop Pay, and Apple Pay. All payments are processed securely through Shopify's payment system."
+    },
+    {
+      "question": "How long does shipping take?",
+      "answer": "Standard shipping typically takes 3-5 business days within the continental US. Express shipping (1-2 business days) is available at checkout for an additional fee. International shipping usually takes 7-14 business days."
+    },
+    {
+      "question": "Do you offer gift wrapping?",
+      "answer": "Yes, we offer gift wrapping services for $5 per item. You can select this option during checkout. We'll wrap your item in premium paper and include a gift message of your choice."
+    },
+    {
+      "question": "What is your warranty policy?",
+      "answer": "All our products come with a one-year warranty against manufacturing defects. This covers issues related to materials and workmanship under normal use. The warranty doesn't cover damage from misuse or normal wear and tear."
+    },
+    {
+      "question": "Can I modify or cancel my order?",
+      "answer": "You can modify or cancel your order within 1 hour of placing it. After that, your order enters our fulfillment process and cannot be changed. Please contact customer service immediately if you need to make changes."
+    },
+    {
+      "question": "Do you have a loyalty program?",
+      "answer": "Yes, our loyalty program rewards you with points for every purchase. Earn 1 point per dollar spent, and redeem points for discounts on future purchases. Sign up for an account to start earning points automatically."
+    }
+  ]
+} 
